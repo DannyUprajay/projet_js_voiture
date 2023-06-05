@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+nav {
+    margin-bottom: 50px;
+    background-color: rgb(47, 45, 45);
+}
+.collapse ul li a{
+    color: rgb(190, 186, 186);
+}
+
+.collapse ul li a:visited {
+    color: rgb(190, 186, 186);
+}
+
+
+.collapse ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.collapse button{
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    padding: .8rem;
+    width: 190px;
+    background-color: rgb(47, 45, 45);
+    transition: 700ms ease;
+}
+
+.collapse button{
+    @include media-breakpoint-down(lg) {
+        width: 150px;
+    }
+
+}
+
+.collapse button:hover{
+    background-color: rgb(183, 68, 68);
+}
+
+.collapse {
+
+    @include media-breakpoint-down(lg) {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+.logo {
+    @include media-breakpoint-down(lg) {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+}
+
+button{
+    color: white;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+}
+
+.main button{
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 1.8rem;
+    transition: 700ms ease;
+    background-color: white;
+}
+
+.main button:hover {
+    background-color: rgb(197, 65, 65);
+}
+
+.main img {
+    width: 100%;
+}
+
+.main{
+    @include media-breakpoint-down(lg) {
+    text-align: center;
+            }
+}
+
+.main img{
+    @include media-breakpoint-down(lg) {
+display: none;
+width: 2px;
+    }
+}
+
+.carVisuel {
+    width: 100%;
+    background-color: rgb(39, 38, 38);
+    color: white;
+    margin-bottom: 80px;
+
+}
+.carousel-item img {
+    width: 500px;
+    object-fit: cover;
+}
+
+.choiceVoiture h2{
+margin-bottom: 50px;
+}
+
+.choiceVoiture img {
+    @include media-breakpoint-down(lg) {
+       margin-top: 15px;
+            }
+}
+
+.louerVoiture{
+    background-color: rgb(39, 38, 38);
+    color: white;
+}
+
+.louerVoiture {
+    div{
+        div{
+            img{
+                @include media-breakpoint-down(lg) {
+                   width: 350px;
+                 
+                        }
+            }
+        }
+    }
+}
+
+.louerVoiture button{
+    color: white;
+ 
+    border: 2px solid rgb(255, 255, 255);
+    padding: 1.8rem;
+    background-color: rgb(39, 38, 38);
+    transition: 700ms ease;
+   
+}
+
+.louerVoiture button:hover{
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 1.8rem;
+    background-color: rgb(183, 68, 68);
+
+   
+}
+
+.louerVoiture img{
+    width: 700px;
+}
+#zone2 {
+    width: 100%;
+    margin-bottom: 200px;
+    text-align: center;
+   
+}
+
+#zone2 img{
+    margin-right: 30px;
+    width: 294px;
+    cursor: pointer;
+
+}
